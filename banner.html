@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Ethereum Cloud Miner Ad</title>
+<style>
+  body, html {
+    margin: 0; padding: 0;
+    width: 320px; height: 480px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: #fff;
+    overflow: hidden;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    justify-content: space-between;
+    text-align: center;
+  }
+  .logo {
+    margin-top: 10px;
+  }
+  .logo img {
+    width: 100px;
+    height: auto;
+  }
+  h1 {
+    font-size: 1.8rem;
+    margin: 20px 0 10px;
+    animation: fadeInDown 1.2s ease forwards;
+    opacity: 0;
+  }
+  p {
+    font-size: 1rem;
+    margin: 10px 0 20px;
+    color: #c0eaff;
+    animation: fadeInUp 1.2s ease forwards 0.8s;
+    opacity: 0;
+  }
+  .cta-button {
+    background: #21d4fd;
+    background: linear-gradient(90deg, #21d4fd 0%, #b721ff 100%);
+    border: none;
+    padding: 15px 30px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.1rem;
+    border-radius: 30px;
+    cursor: pointer;
+    text-transform: uppercase;
+    animation: pulse 2s infinite;
+    box-shadow: 0 0 15px rgba(33, 212, 253, 0.7);
+    transition: background 0.3s ease;
+  }
+  .cta-button:hover {
+    background: linear-gradient(90deg, #b721ff 0%, #21d4fd 100%);
+  }
+  @keyframes fadeInDown {
+    0% {opacity: 0; transform: translateY(-20px);}
+    100% {opacity: 1; transform: translateY(0);}
+  }
+  @keyframes fadeInUp {
+    0% {opacity: 0; transform: translateY(20px);}
+    100% {opacity: 1; transform: translateY(0);}
+  }
+  @keyframes pulse {
+    0%, 100% {box-shadow: 0 0 15px rgba(33, 212, 253, 0.7);}
+    50% {box-shadow: 0 0 25px rgba(33, 212, 253, 1);}
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <div class="logo">
+      <!-- Replace with your Ethereum Cloud Miner app logo -->
+      <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Ethereum_logo_2014.svg" alt="Ethereum Cloud Miner Logo" />
+    </div>
+    <h1>Earn ETH Daily – No Skills!</h1>
+    <p>Mine Ethereum on your phone. Start free & earn crypto rewards now.</p>
+    <button class="cta-button" onclick="window.open('https://apps.apple.com/us/app/ethereum-cloud-miner/id6744918707','_blank')">
+      Download Now
+    </button>
+  </div>
+</body>
+</html>
